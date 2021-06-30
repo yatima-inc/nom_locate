@@ -26,5 +26,6 @@ stable-deref-trait = ["stable_deref_trait"]
 [dependencies]
 bytecount = "^0.6"
 memchr = { version = "2", default-features = false } # ^1.0.0 + ^2.0
-nom = { version = "6", default-features = false }
+nom = { git = "https://github.com/yatima-inc/nom", branch = "master", default-features = false }
+#nom = { default-features = false}
 stable_deref_trait = { version = "^1", optional = true, default-features = false }
